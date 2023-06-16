@@ -20,46 +20,33 @@
 <body>
 	
 	<!-- Start Nav Section -->
-
-	<div>
-		<div id="navbar" class="text-light bg-dark p-2 d-flex flex-row">
-			<div class="mr-auto p-2">Marco Profile</div>
-			<div id="navlinks" class="d-flex flex-row">
-				<div class="p-3"><a href="#landing">About Me</a></div>
-				<div class="p-3"><a href="#projects">Projects</a></div>
-				<div class="p-3"><a href="#tools">Tools</a></div>
-				<div class="p-3"><a href="#contact">Contact</a></div>
-			</div>
-		</div>
-	</div>
-
-	<div class="container-fluid bg-image col-xl-12 p-0 ">
-		<div class="row">
-			<div class="col-md-12">
+	<div class="col-xl-12  p-0 text-center bg-image ">
+		<div class="row d-flex justify-content-center">
+			<div class="col-md-12 col-12">
 				<nav class="navbar">
 					<div class="navbar-brand">MARCO</div>
 					<ul class="nav">
 						<li class="nav-item">
-							<a class="nav-link" href="">HOME</a>
+							<a class="nav-link" href="#landing">HOME</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="">PPROJECTS</a>
+							<a class="nav-link" href="#projects">PPROJECTS</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="">TOOLS</a>
+							<a class="nav-link" href="#tools">TOOLS</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="">CONTACT</a>
+							<a class="nav-link" href="#contact">CONTACT</a>
 						</li>
 					</ul>
 				</nav>
 			</div>
 
-			<!-- EndNav Section -->
+	<!-- EndNav Section -->
 
-			<!-- Start of Landing page -->
+	<!-- Start of Landing page -->
 			<div id="landing" class="text-center">
-				<div class="container-fluid text-light min-vh-100 p-5 p-md-5">
+				<div class="container-fluid text-light min-vh-110 p-5 p-md-5">
 					<div>	
 						<img src="./images/profile.jpg" width="250" class="mt-5 mt-md-0 rounded-circle">
 						<h1>Marco Hipolito</h1>
@@ -88,34 +75,7 @@
 
 
 
-<div class="col-xl-12 p-0 text-center">
-	<!-- Start of Landing page -->
-	<div id="landing" class="text-center">
-		<div class="container-fluid bg-image text-light min-vh-100 p-5 p-md-5">
-			<div>	
-				<img src="./images/profile.jpg" width="250" class="mt-5 mt-md-0 rounded-circle">
-				<h1>Marco Hipolito</h1>
-				<h3>Full-Stack Web Developer</h3>
-					<div class="row mt-3">
-						<div class="offset-md-2 col-md-8">
-							<p>
-							 	I'm Marco, a passionate full-stack developer with a knack for creating seamless and engaging web experiences. With a blend of front-end and back-end expertise, I have the skills to bring your ideas to life and deliver high-quality digital solutions.
-							</p>
-							<div class="d-flex flex-row justify-content-center col-12 col-md-12">
-								<a href="https://www.facebook.com/"><img src="./images/facebook.png" class="logo"></a>
-								<a href="https://www.instagram.com/"><img src="./images/instagram.png" class="logo"></a>
-								<a href="https://about.gitlab.com/"><img src="./images/gitlab.png" class="logo"></a>
-								<a href="https://www.linkedin.com/authwall?trk=qf&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2F"><img src="./images/linkedin.png" class="logo"></a>
-							</div>
-						</div>
-					</div>
-			</div>
-		</div>
-	</div>	
-	<!-- End of Landing page -->
-
-
-
+<div class="col-xl-12  p-0 text-center">
 	<!-- Start of Projects -->
 	<div class="text-center">
 		<div id="projects" class="bg-project text-light min-vh-100 p-5">
@@ -131,7 +91,6 @@
 				    <p class="card-text">
 				    	E-commerce, short for electronic commerce, refers to the buying and selling of goods and services over the internet. It involves conducting commercial transactions electronically, typically through online platforms, websites, or mobile applications. E-commerce has transformed the way businesses operate and how consumers engage in shopping.
 				    </p>
-				    <a href="#" class="card-link">Link to Project</a>
 				  </div>
 				</div>
 				<!-- E-commerce  Card End -->
@@ -144,7 +103,6 @@
 				    <p class="card-text">
 				    	Online registration refers to the process of enrolling or signing up for a service, event, or program through an internet-based platform. It allows individuals or entities to complete the registration process conveniently and securely from anywhere with an internet connection
 				    </p>
-				    <a href="#" class="card-link">Link to Project</a>
 				  </div>
 				</div>
 				<!-- Online-Registration Card End -->
@@ -157,7 +115,6 @@
 				    <p class="card-text">
 				    	Promotional websites typically feature visually appealing designs, compelling content, and clear calls to action. They are crafted to create a positive and persuasive impression on visitors, encouraging them to explore further, learn about the offering, and take the desired next steps, such as making a purchase, signing up, or contacting the business..
 				    </p>
-				    <a href="#" class="card-link">Link to Project</a>
 				  </div>
 				</div>
 				<!-- Promotional Website Card End -->
@@ -167,7 +124,7 @@
 	<!-- Project Section Container End -->
 
 	<!-- Start of Tools Section -->
-	<div id="tools" class="container-fluid bg-white d-flex justify-content-center min-vh-50 text-center text-dark">
+	<div id="tools" class="container-fluid bg-warning d-flex justify-content-center min-vh-50 text-center text-dark">
 	  <div class="row">
 	    <div class="col-md-4">
 	      <!-- Frontend Tools Section Start -->
@@ -241,7 +198,9 @@
 	      </form>
 	    </div>
 	  </div>
+	  <h2 class="mt-5"><a href="#landing">Back To Top</a></h2>
 	</div>
+
 	<!-- End of Contact Section -->
 
 	<!-- Modal -->
@@ -258,7 +217,7 @@
 	        Message Successfully Sent
 	      </div>
 	      <div class="modal-footer">
-	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
 	      </div>
 	    </div>
 	  </div>
