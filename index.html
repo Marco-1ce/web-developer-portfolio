@@ -24,13 +24,13 @@
 		<div class="row d-flex justify-content-center">
 			<div class="col-md-12 col-12">
 				<nav class="navbar">
-					<div class="navbar-brand">MARCO</div>
+					<div class="navbar-brand"><a href="https://www.facebook.com/" class="text-light text-decoration-none">MARCO</a></div>
 					<ul class="nav">
 						<li class="nav-item">
 							<a class="nav-link" href="#landing">HOME</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#projects">PPROJECTS</a>
+							<a class="nav-link" href="#projects">PROJECTS</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#tools">TOOLS</a>
@@ -49,11 +49,11 @@
 				<div class="container-fluid text-light min-vh-110 p-5 p-md-5">
 					<div>	
 						<img src="./images/profile.jpg" width="250" class="mt-5 mt-md-0 rounded-circle">
-						<h1>Marco Hipolito</h1>
-						<h3>Full-Stack Web Developer</h3>
+						<h1 class="h1-intro">Marco Hipolito</h1>
+						<h3 class="h3-intro">Full-Stack Web Developer</h3>
 							<div class="row mt-3">
 								<div class="offset-md-2 col-md-8">
-									<p>
+									<p class="intro-text">
 									 	I'm Marco, a passionate full-stack developer with a knack for creating seamless and engaging web experiences. With a blend of front-end and back-end expertise, I have the skills to bring your ideas to life and deliver high-quality digital solutions.
 									</p>
 									<div class="d-flex flex-row justify-content-center col-12 col-md-12">
@@ -78,17 +78,17 @@
 <div class="col-xl-12  p-0 text-center">
 	<!-- Start of Projects -->
 	<div class="text-center">
-		<div id="projects" class="bg-project text-light min-vh-100 p-5">
-			<h2 class="mb-3">Projects</h2>
+		<div id="projects" class="bg-project text-dark min-vh-100 p-5">
+			<h2 class="mb-3 text-light project-title">Projects</h2>
 			<!-- Other Project Section Container Start -->
 			<div class="p-md-5 d-lg-flex justify-content-center">
 
 				<!-- E-commerce Card Start -->
-				<div class="card bg-dark col-xl-4 mb-5 mb-xl-0 mx-2">
+				<div class="card bg-warning col-xl-4 mb-5 mb-xl-0 mx-2">
 				  <div class="card-body">
 				  	<img src="./images/eCommerce.jpg" class="img-fluid">
 				    <h5 class="card-title mt-3">E-commerce</h5>
-				    <p class="card-text">
+				    <p class="card-text card-info">
 				    	E-commerce, short for electronic commerce, refers to the buying and selling of goods and services over the internet. It involves conducting commercial transactions electronically, typically through online platforms, websites, or mobile applications. E-commerce has transformed the way businesses operate and how consumers engage in shopping.
 				    </p>
 				  </div>
@@ -96,11 +96,11 @@
 				<!-- E-commerce  Card End -->
 
 				<!-- Online-Registration Card Start -->
-				<div class="card bg-dark col-xl-4 mb-5 mb-xl-0 mx-2">
+				<div class="card bg-warning col-xl-4 mb-5 mb-xl-0 mx-2">
 				  <div class="card-body">
 				  	<img src="./images/registration.jpg" class="img-fluid">
 				    <h5 class="card-title mt-3">Online Registration</h5>
-				    <p class="card-text">
+				    <p class="card-text card-info">
 				    	Online registration refers to the process of enrolling or signing up for a service, event, or program through an internet-based platform. It allows individuals or entities to complete the registration process conveniently and securely from anywhere with an internet connection
 				    </p>
 				  </div>
@@ -108,11 +108,11 @@
 				<!-- Online-Registration Card End -->
 
 				<!-- Promotional Website Card Start -->
-				<div class="card bg-dark col-xl-4 mb-5 mb-xl-0 mx-2">
+				<div class="card bg-warning col-xl-4 mb-5 mb-xl-0 mx-2">
 				  <div class="card-body">
 				  	<img src="./images/website.webp" class="img-fluid">
 				    <h5 class="card-title mt-3">Promotional Website</h5>
-				    <p class="card-text">
+				    <p class="card-text card-info">
 				    	Promotional websites typically feature visually appealing designs, compelling content, and clear calls to action. They are crafted to create a positive and persuasive impression on visitors, encouraging them to explore further, learn about the offering, and take the desired next steps, such as making a purchase, signing up, or contacting the business..
 				    </p>
 				  </div>
@@ -124,19 +124,19 @@
 	<!-- Project Section Container End -->
 
 	<!-- Start of Tools Section -->
-	<div id="tools" class="container-fluid bg-warning d-flex justify-content-center min-vh-50 text-center text-dark">
+	<div id="tools" class="container-fluid bg-secondary d-flex justify-content-center min-vh-50 text-center text-light">
 	  <div class="row">
 	    <div class="col-md-4">
 	      <!-- Frontend Tools Section Start -->
-	      <h3 class="mt-3">Frontend Tools</h3>
+	      <h3 class="mt-3 project-tool">Frontend Tools</h3>
 	      <div id="core-tools" class="p-3 d-flex justify-content-center flex-column">
 	        <div id="html" class="d-flex justify-content-center align-items-center">
-	          <img src="images/logo-html5.png" />
-	          <img src="images/logo-css3.png" />
+	          <img class="tool-logo" src="images/logo-html5.png" />
+	          <img class="tool-logo" src="images/logo-css3.png" />
 	        </div>
 	        <div id="css-js" class="d-flex justify-content-center align-items-center">
-	          <img src="images/logo-bootstrap.png" />
-	          <img src="images/logo-javascript.png" />
+	          <img class="tool-logo" src="images/logo-bootstrap.png" />
+	          <img class="tool-logo" src="images/logo-javascript.png" />
 	        </div>
 	      </div>
 	      <!-- Frontend Tools Section End -->
@@ -144,13 +144,13 @@
 
 	    <div class="col-md-4">
 	      <!-- MERN Tools Section Start -->
-	      <h3 class="text-center mt-3">MERN Tools</h3>
+	      <h3 class="text-center mt-3 project-tool">MERN Tools</h3>
 	      <div id="MERN-tools" class="d-flex flex-md-column">
 	        <div id="tools-1" class="d flex justify-content-center align-items-center">
-	          <img src="images/logo-mongodb.png" />
-	          <img src="images/logo-expressjs.png" />
-	          <img src="images/logo-react.png" />
-	          <img src="images/logo-nodejs.png" />
+	          <img class="tool-logo" src="images/logo-mongodb.png" />
+	          <img class="tool-logo" src="images/logo-expressjs.png" />
+	          <img class="tool-logo" src="images/logo-react.png" />
+	          <img class="tool-logo" src="images/logo-nodejs.png" />
 	        </div>
 	      </div>
 	      <!-- MERN Tools Section End -->
@@ -158,13 +158,13 @@
 
 	    <div class="col-md-4">
 	      <!-- Other Tools Section Start -->
-	      <h3 class="text-center mt-3">Other Tools</h3>
+	      <h3 class="text-center mt-3 project-tool">Other Tools</h3>
 	      <div id="other-tools" class="d-flex flex-md-column">
 	        <div id="tools-2" class="d flex justify-content-center align-items-center">
-	          <img src="images/logo-git.png" />
-	          <img src="images/logo-sublime-text-3.png" />
-	          <img src="images/logo-postman.png" />
-	          <img src="images/logo-gitlab-ci-cd.png" />
+	          <img class="tool-logo" src="images/logo-git.png" />
+	          <img class="tool-logo" src="images/logo-sublime-text-3.png" />
+	          <img class="tool-logo" src="images/logo-postman.png" />
+	          <img class="tool-logo" src="images/logo-gitlab-ci-cd.png" />
 	        </div>
 	      </div>
 	      <!-- Other Tools Section End -->
@@ -175,33 +175,47 @@
 	<!-- End of Tools Section -->
 
 
-	<!-- Start of Contact Section -->
-	<div id="contact" class="container-fluid bg-dark text-light min-vh-50 p-5"> 
-	<h2 class="mb-5 contact">Contact Me</h2>
-	  <div class="row justify-content-center">
-	    <div class="col-md-8 bg-project p-5">
-	      <h2 class="mb-3">Message Me</h2>
-	      <form>
-	        <div class="form-group">
-	          <label for="fullName">Full Name</label>
-	          <input type="text" class="form-control" id="fullName" placeholder="Enter your full name">
-	        </div>
-	        <div class="form-group">
-	          <label for="emailAddress">Email Address</label>
-	          <input type="email" class="form-control" id="emailAddress" placeholder="Enter your email address">
-	        </div>
-	        <div class="form-group">
-	          <label for="message">Message</label>
-	          <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
-	        </div>
-	        <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modalDiv">Send Email</button>
-	      </form>
-	    </div>
-	  </div>
-	  <h2 class="mt-5"><a href="#landing">Back To Top</a></h2>
-	</div>
+	<!-- Start of Contact -->
+	<div class="container-fluid" id="contact">
+		<div class="row">
+			<div id="map" class="container-fluid bg-dark">
+			  <div class="">
+			    <div class="col-md-12 col-12">
+			      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61889.77820396275!2d121.0750319691309!3d14.188268344332732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd63655ce077d3%3A0x39dd1f59c6edaced!2sCalamba%2C%204027%20Laguna!5e0!3m2!1sen!2sph!4v1686888115259!5m2!1sen!2sph" width="100%" height="500"></iframe>
+			    </div>
+			  </div>
+			</div>
 
-	<!-- End of Contact Section -->
+			<div class="col-md-6 p-5 bg-warning text-dark">
+				<!-- form -->
+				<h2 id="contact-header" class="pt-5 pb-3">
+					Contact Us
+				</h2>
+				<p id="contact-text" class="mt-2 mb-3">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+				</p>
+				<form class="mt-3">
+				  <div class="form-group my-4">
+				    <label for="exampleFormControlInput1">Name</label>
+				    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your full name">
+				  </div>
+				  <div class="form-group my-4">
+				    <label for="exampleFormControlInput1">Email address</label>
+				    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email address">
+				  </div>
+				  <div class="form-group my-4">
+				    <label for="exampleFormControlTextarea1">Message</label>
+				    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter your message" rows="6"></textarea>
+				  </div>
+				  <div class="my-5 d-flex justify-content-end">
+				  	<button id="form-btn" class="btn ">Submit</button>
+				  </div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- End of Contact -->
+	
 
 	<!-- Modal -->
 	<div class="modal fade" id="modalDiv" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -226,9 +240,9 @@
 
 
 	<!-- Start of Map Section -->
-	<div id="map" class="container-fluid">
+	<div id="map" class="container-fluid bg-dark">
 	  <div class="row justify-content-center">
-	    <div class="col-md-12">
+	    <div class="col-md-12 col-12">
 	      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61889.77820396275!2d121.0750319691309!3d14.188268344332732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd63655ce077d3%3A0x39dd1f59c6edaced!2sCalamba%2C%204027%20Laguna!5e0!3m2!1sen!2sph!4v1686888115259!5m2!1sen!2sph" width="100%" height="500"></iframe>
 	    </div>
 	  </div>
