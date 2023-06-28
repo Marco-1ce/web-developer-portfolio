@@ -2,222 +2,217 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Capstone 1</title>
-
-	<!-- Bootstrap CSS -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Capstone Frontend</title>
+	
+	<!-- bootstrap css -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
-	<!-- Google Font -->
+	<!-- google font -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+	
 
-	<!-- Internal CSS -->
-	<link rel="stylesheet" type="text/css" href="index.css">
-
+	<!-- external css -->
+	<link rel="stylesheet" type="text/css" href="./index.css">
 </head>
 <body>
-	
-	<!-- Start Nav Section -->
-	<div class="col-xl-12 col-sm-12 p-0 text-center bg-image ">
-		<div class="row d-flex justify-content-center">
-			<div class="col-md-12 col-12">
-				<nav class="navbar">
-					<div class="navbar-brand"><a href="https://www.facebook.com/" class="text-light text-decoration-none">MARCO</a></div>
-					<ul class="nav">
-						<li class="nav-item">
-							<a class="nav-link" href="#landing">HOME</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#projects">PROJECTS</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#tools">TOOLS</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#contact">CONTACT</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
 
-	<!-- EndNav Section -->
+<!-- Start of Nav -->
+	<div class="container-fluid bg-landing col-xl-12 col-sm-12 p-0 ">
+		<nav class="navbar navbar-expand-sm navbar-light">
+		  <a class="navbar-brand p-3" href="#"><span class="text-danger">M</span>arco</a>
+		  <button class="navbar-toggler bg-white mt-3" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		    <div class="navbar-nav mx-5 ml-auto">
+		      <a class="nav-link" href="#landing">Home</a>
+		      <a class="nav-link" href="#projects">Projects</a>
+		      <a class="nav-link" href="#tools">Tools</a>
+		      <a class="nav-link" href="#contact">Contact</a>
+		    </div>
+		  </div>
+		</nav>
+<!-- End of Nav -->
 
-	<!-- Start of Landing page -->
-			<div id="landing" class="text-center">
-				<div class="container-fluid text-light min-vh-110 p-5 p-md-5">
-					<div>	
-						<img src="./images/profile.jpg" width="250" class="mt-5 mt-md-0 rounded-circle">
-						<h1 class="h1-intro">Marco Hipolito</h1>
-						<h3 class="h3-intro">Full-Stack Web Developer</h3>
-							<div class="row mt-3">
-								<div class="offset-md-2 col-md-8">
-									<p class="intro-text">
-									 	I'm Marco, a passionate full-stack developer with a knack for creating seamless and engaging web experiences. With a blend of front-end and back-end expertise, I have the skills to bring your ideas to life and deliver high-quality digital solutions.
-									</p>
-									<div class="d-flex flex-row justify-content-center col-12 col-md-12">
-										<a href="https://www.facebook.com/"><img src="./images/facebook.png" class="logo"></a>
-										<a href="https://www.instagram.com/"><img src="./images/instagram.png" class="logo"></a>
-										<a href="https://about.gitlab.com/"><img src="./images/gitlab.png" class="logo"></a>
-										<a href="https://www.linkedin.com/authwall?trk=qf&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2F"><img src="./images/linkedin.png" class="logo"></a>
-									</div>
-								</div>
-							</div>
+<!-- Start of Landing -->
+		<div id="landing" class="text-center">
+			<div class="container-fluid text-light min-vh-110 p-5 p-md-5">
+				<div>	
+					<img src="./images/profile.jpg" width="170" class="mt-5 mt-md-0 rounded-circle ">
+					<h1 class="h1-intro text-danger">Marco Hipolito</h1>
+					<h3 class="h3-intro">Full-Stack Web Developer</h3>
+					<div class="row p-4">
+						<div class="offset-md-2 col-md-8">
+							<p class="intro-text">
+							 	I'm Marco, a passionate full-stack developer with a knack for creating seamless and engaging web experiences. With a blend of front-end and back-end expertise, I have the skills to bring your ideas to life and deliver high-quality digital solutions.
+							</p>
+						</div>
 					</div>
 				</div>
-			</div>	
-			<!-- End of Landing page -->
-		</div>
-	</div>
-
-	<!-- EndNav Section -->
-
-
-
-<div class="col-xl-12  p-0 text-center">
-	<!-- Start of Projects -->
-	<div class="text-center">
-		<div id="projects" class="bg-project text-dark min-vh-100 p-5">
-			<h2 class="mb-3 text-light project-title">Projects</h2>
-			<!-- Other Project Section Container Start -->
-			<div class="p-md-5 d-lg-flex justify-content-center">
-
-				<!-- E-commerce Card Start -->
-				<div class="card bg-warning col-xl-4 mb-5 mb-xl-0 mx-2">
-				  <div class="card-body">
-				  	<img src="./images/eCommerce.jpg" class="img-fluid">
-				    <h5 class="card-title mt-3">E-commerce</h5>
-				    <p class="card-text card-info">
-				    	E-commerce, short for electronic commerce, refers to the buying and selling of goods and services over the internet. It involves conducting commercial transactions electronically, typically through online platforms, websites, or mobile applications. E-commerce has transformed the way businesses operate and how consumers engage in shopping.
-				    </p>
-				  </div>
-				</div>
-				<!-- E-commerce  Card End -->
-
-				<!-- Online-Registration Card Start -->
-				<div class="card bg-warning col-xl-4 mb-5 mb-xl-0 mx-2">
-				  <div class="card-body">
-				  	<img src="./images/registration.jpg" class="img-fluid">
-				    <h5 class="card-title mt-3">Online Registration</h5>
-				    <p class="card-text card-info">
-				    	Online registration refers to the process of enrolling or signing up for a service, event, or program through an internet-based platform. It allows individuals or entities to complete the registration process conveniently and securely from anywhere with an internet connection
-				    </p>
-				  </div>
-				</div>
-				<!-- Online-Registration Card End -->
-
-				<!-- Promotional Website Card Start -->
-				<div class="card bg-warning col-xl-4 mb-5 mb-xl-0 mx-2">
-				  <div class="card-body">
-				  	<img src="./images/website.webp" class="img-fluid">
-				    <h5 class="card-title mt-3">Promotional Website</h5>
-				    <p class="card-text card-info">
-				    	Promotional websites typically feature visually appealing designs, compelling content, and clear calls to action. They are crafted to create a positive and persuasive impression on visitors, encouraging them to explore further, learn about the offering, and take the desired next steps, such as making a purchase, signing up, or contacting the business..
-				    </p>
-				  </div>
-				</div>
-				<!-- Promotional Website Card End -->
 			</div>
+		</div>	
+	</div>
+<!-- End of Landing -->
+
+<!-- Start of Project -->
+
+			<div id="projects" class="bg-project text-dark col-xl-12  p-0 text-center bg-project text-center min-vh-100 p-5">
+				<h2 class="mb-3 project-title text-danger">PROJECTS</h2>
+				<!-- Other Project Section Container Start -->
+				<div class="p-md-5 p-5 d-lg-flex justify-content-center">
+
+					<!-- E-commerce Card Start -->
+					<div class="card bg-card col-xl-4 mb-5 mb-xl-0 mx-2">
+					  <div class="card-body">
+					  	<img src="./images/eCommerce.jpg" class="img-fluid">
+					    <h5 class="card-title mt-3 text-danger">E-commerce</h5>
+					    <p class="card-text card-info">
+					    	E-commerce, short for electronic commerce, refers to the buying and selling of goods and services over the internet. It involves conducting commercial transactions electronically, typically through online platforms, websites, or mobile applications. E-commerce has transformed the way businesses operate and how consumers engage in shopping.
+					    </p>
+					  </div>
+					</div>
+					<!-- E-commerce  Card End -->
+
+					<!-- Online-Registration Card Start -->
+					<div class="card bg-card col-xl-4 mb-5 mb-xl-0 mx-2">
+					  <div class="card-body">
+					  	<img src="./images/registration.jpg" class="img-fluid">
+					    <h5 class="card-title mt-3 text-danger">Online Registration</h5>
+					    <p class="card-text card-info">
+					    	Online registration refers to the process of enrolling or signing up for a service, event, or program through an internet-based platform. It allows individuals or entities to complete the registration process conveniently and securely from anywhere with an internet connection
+					    </p>
+					  </div>
+					</div>
+					<!-- Online-Registration Card End -->
+
+					<!-- Promotional Website Card Start -->
+					<div class="card bg-card col-xl-4 mb-5 mb-xl-0 mx-2">
+					  <div class="card-body">
+					  	<img src="./images/website.webp" class="img-fluid">
+					    <h5 class="card-title mt-3 text-danger">Promotional Website</h5>
+					    <p class="card-text card-info">
+					    	Promotional websites typically feature visually appealing designs, compelling content, and clear calls to action. They are crafted to create a positive and persuasive impression on visitors, encouraging them to explore further, learn about the offering, and take the desired next steps, such as making a purchase, signing up, or contacting the business..
+					    </p>
+					  </div>
+					</div>
+					<!-- Promotional Website Card End -->
+				</div>
+			</div>
+<!-- End of Project -->
+
+<!-- Start of Tools -->
+	<div class= "container-fluid bg-tools">
+		<h1 class="text-center pt-5 project-title text-danger">TOOLS</h1>
+		<div id="tools" class=" d-flex justify-content-center min-vh-50 text-center text-light">
+		  <div class="row p-4">
+		    <div class="col-md-4">
+		      <!-- Frontend Tools Section Start -->
+		      <h3 class="mt-3 project-tool">Frontend Tools</h3>
+		      <div id="core-tools" class="p-3 d-flex justify-content-center flex-column">
+		        <div id="html" class="d-flex justify-content-center align-items-center">
+		          <img class="tool-logo" src="images/logo-html5.png" />
+		          <img class="tool-logo" src="images/logo-css3.png" />
+		        </div>
+		        <div id="css-js" class="d-flex justify-content-center align-items-center">
+		          <img class="tool-logo" src="images/logo-bootstrap.png" />
+		          <img class="tool-logo" src="images/logo-javascript.png" />
+		        </div>
+		      </div>
+		      <!-- Frontend Tools Section End -->
+		    </div>
+
+		    <div class="col-md-4">
+		      <!-- MERN Tools Section Start -->
+		      <h3 class="text-center mt-3 project-tool">MERN Tools</h3>
+		      <div id="MERN-tools" class="d-flex flex-md-column">
+		        <div id="tools-1" class="d flex justify-content-center align-items-center">
+		          <img class="tool-logo" src="images/logo-mongodb.png" />
+		          <img class="tool-logo" src="images/logo-expressjs.png" />
+		          <img class="tool-logo" src="images/logo-react.png" />
+		          <img class="tool-logo" src="images/logo-nodejs.png" />
+		        </div>
+		      </div>
+		      <!-- MERN Tools Section End -->
+		    </div>
+
+		    <div class="col-md-4">
+		      <!-- Other Tools Section Start -->
+		      <h3 class="text-center mt-3 project-tool">Other Tools</h3>
+		      <div id="other-tools" class="d-flex flex-md-column">
+		        <div id="tools-2" class="d flex justify-content-center align-items-center">
+		          <img class="tool-logo" src="images/logo-git.png" />
+		          <img class="tool-logo" src="images/logo-sublime-text-3.png" />
+		          <img class="tool-logo" src="images/logo-postman.png" />
+		          <img class="tool-logo" src="images/logo-gitlab-ci-cd.png" />
+		        </div>
+		      </div>
+		      <!-- Other Tools Section End -->
+		    </div>
+		  </div>
 		</div>
 	</div>
-	<!-- Project Section Container End -->
+<!-- End of Tools -->
+	
 
-	<!-- Start of Tools Section -->
-	<div id="tools" class="container-fluid bg-secondary d-flex justify-content-center min-vh-50 text-center text-light">
-	  <div class="row">
-	    <div class="col-md-4">
-	      <!-- Frontend Tools Section Start -->
-	      <h3 class="mt-3 project-tool">Frontend Tools</h3>
-	      <div id="core-tools" class="p-3 d-flex justify-content-center flex-column">
-	        <div id="html" class="d-flex justify-content-center align-items-center">
-	          <img class="tool-logo" src="images/logo-html5.png" />
-	          <img class="tool-logo" src="images/logo-css3.png" />
-	        </div>
-	        <div id="css-js" class="d-flex justify-content-center align-items-center">
-	          <img class="tool-logo" src="images/logo-bootstrap.png" />
-	          <img class="tool-logo" src="images/logo-javascript.png" />
-	        </div>
-	      </div>
-	      <!-- Frontend Tools Section End -->
-	    </div>
-
-	    <div class="col-md-4">
-	      <!-- MERN Tools Section Start -->
-	      <h3 class="text-center mt-3 project-tool">MERN Tools</h3>
-	      <div id="MERN-tools" class="d-flex flex-md-column">
-	        <div id="tools-1" class="d flex justify-content-center align-items-center">
-	          <img class="tool-logo" src="images/logo-mongodb.png" />
-	          <img class="tool-logo" src="images/logo-expressjs.png" />
-	          <img class="tool-logo" src="images/logo-react.png" />
-	          <img class="tool-logo" src="images/logo-nodejs.png" />
-	        </div>
-	      </div>
-	      <!-- MERN Tools Section End -->
-	    </div>
-
-	    <div class="col-md-4">
-	      <!-- Other Tools Section Start -->
-	      <h3 class="text-center mt-3 project-tool">Other Tools</h3>
-	      <div id="other-tools" class="d-flex flex-md-column">
-	        <div id="tools-2" class="d flex justify-content-center align-items-center">
-	          <img class="tool-logo" src="images/logo-git.png" />
-	          <img class="tool-logo" src="images/logo-sublime-text-3.png" />
-	          <img class="tool-logo" src="images/logo-postman.png" />
-	          <img class="tool-logo" src="images/logo-gitlab-ci-cd.png" />
-	        </div>
-	      </div>
-	      <!-- Other Tools Section End -->
-	    </div>
-	  </div>
-	</div>
-
-	<!-- End of Tools Section -->
-
-
-	<!-- Start of Contact -->
+<!-- Start of Contact -->
 	<div class="container-fluid" id="contact">
 		<div class="row">
-			<div id="map" class="container-fluid bg-dark">
-			  <div class="">
-			    <div class="col-md-12 col-12">
-			      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61889.77820396275!2d121.0750319691309!3d14.188268344332732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd63655ce077d3%3A0x39dd1f59c6edaced!2sCalamba%2C%204027%20Laguna!5e0!3m2!1sen!2sph!4v1686888115259!5m2!1sen!2sph" width="100%" height="500"></iframe>
-			    </div>
-			  </div>
+			<div class="col-md-6 text-center d-flex flex-column justify-content-center align-items-center py-5 py-md-0" id="contact-image">
+				<!-- social media -->
+				<h4 id="social-header">Follow me on social media</h4>
+				<div class="row">
+					<div class="col-12 mt-3 pt-5 d-flex justify-content-center align-items-center">
+						<div class="row">
+							<div class="col-3 ">
+								<a href="https://www.facebook.com/"><img src="./images/facebook.png" class="logo mx-3 img-fluid"></a>
+							</div>
+							<div class="col-3 d-flex justify-content-center align-items-center">
+								<a href="https://www.instagram.com/"><img src="./images/instagram.png" class="logo mx-3 img-fluid"></a>
+							</div>
+							<div class="col-3 d-flex justify-content-center align-items-center">
+								<a href="https://about.gitlab.com/"><img src="./images/gitlab.png" class="logo mx-3 img-fluid"></a>
+							</div>
+							<div class="col-3 d-flex justify-content-center align-items-center">
+								<a href="https://www.linkedin.com/authwall?trk=qf&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2F"><img src="./images/linkedin.png" class="logo mx-3 img-fluid"></a>
+							</div>
+						</div>
+					</div>	
+				</div>
 			</div>
-
-			<div class="col-md-6 p-5 bg-warning text-dark">
+			<div class="col-md-6 px-5">
 				<!-- form -->
-				<h2 id="contact-header" class="pt-5 pb-3">
-					Contact Us
+				<h2 id="contact-header" class="pt-5 pb-3 text-danger">
+					Get in touch!
 				</h2>
 				<p id="contact-text" class="mt-2 mb-3">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					Fill out this section to send me an email.
 				</p>
 				<form class="mt-3">
 				  <div class="form-group my-4">
 				    <label for="exampleFormControlInput1">Name</label>
-				    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your full name">
+				    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Full Name">
 				  </div>
 				  <div class="form-group my-4">
 				    <label for="exampleFormControlInput1">Email address</label>
-				    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email address">
+				    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Email">
 				  </div>
 				  <div class="form-group my-4">
 				    <label for="exampleFormControlTextarea1">Message</label>
-				    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter your message" rows="6"></textarea>
+				    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 				  </div>
 				  <div class="my-5 d-flex justify-content-end">
-				  	<button id="form-btn" class="btn ">Submit</button>
+				  	<button id="form-btn" class="btn type="button class="btn btn-dark" data-toggle="modal" data-target="#modalDiv">Submit</button>
 				  </div>
 				</form>
 			</div>
 		</div>
 	</div>
-	<!-- End of Contact -->
-	
+<!-- End of Contact -->
 
-	<!-- Modal -->
+<!-- Modal -->
 	<div class="modal fade" id="modalDiv" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 	  <div class="modal-dialog">
 	    <div class="modal-content">
@@ -236,25 +231,16 @@
 	    </div>
 	  </div>
 	</div>
-	<!-- End of Modal -->
+<!-- End of Modal -->
 
 
-	<!-- Start of Map Section -->
-	<div id="map" class="container-fluid bg-dark">
-	  <div class="row justify-content-center">
-	    <div class="col-md-12 col-12">
-	      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61889.77820396275!2d121.0750319691309!3d14.188268344332732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd63655ce077d3%3A0x39dd1f59c6edaced!2sCalamba%2C%204027%20Laguna!5e0!3m2!1sen!2sph!4v1686888115259!5m2!1sen!2sph" width="100%" height="500"></iframe>
-	    </div>
-	  </div>
-	</div>
-	
-
-	<footer class="bg-dark text-light text-center p-3">
+<!-- Start of Footer -->
+	<footer class="text-light text-center p-3">
 		<p>&copy; 2023 Marco Hipolito. All rights reserved.</p>
 	</footer>
-</div>
+<!-- End of Footer -->
 
-	<!-- JS BUNDLE -->
+	<!-- Bootstap JS -->
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </body>
